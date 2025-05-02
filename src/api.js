@@ -3,7 +3,7 @@ import axios from 'axios';
 // Create an axios instance with base URL
 const API_BASE_URL = process.env.NODE_ENV === 'production' 
   ? '' // Empty for production as it's served from the same origin
-  : 'http://localhost:8000'; // Explicit in development
+  : 'https://733a-183-82-119-26.ngrok-free.app'; // Explicit in development
 
 const api = axios.create({
   baseURL: API_BASE_URL,
